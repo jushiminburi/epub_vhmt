@@ -1,0 +1,41 @@
+PODS:
+  - epub_vhmt (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_archive (0.0.1):
+    - Flutter
+    - ZIPFoundation (= 0.9.13)
+  - integration_test (0.0.1):
+    - Flutter
+  - ZIPFoundation (0.9.13)
+
+DEPENDENCIES:
+  - epub_vhmt (from `.symlinks/plugins/epub_vhmt/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_archive (from `.symlinks/plugins/flutter_archive/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  epub_vhmt:
+    :path: ".symlinks/plugins/epub_vhmt/ios"
+  Flutter:
+    :path: Flutter
+  flutter_archive:
+    :path: ".symlinks/plugins/flutter_archive/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  epub_vhmt: 4410eb24d4f393bd7c3632826a75ba62192b5f72
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_archive: 1805fdd3a695fd284b43edb53dc35ca843fb761c
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  ZIPFoundation: ae5b4b813d216d3bf0a148773267fff14bd51d37
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2

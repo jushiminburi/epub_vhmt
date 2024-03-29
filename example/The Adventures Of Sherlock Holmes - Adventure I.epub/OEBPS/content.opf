@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="pubID" xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition/#" xml:lang="en">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pubID">urn:uuid:a3e2f6b1-c988-439a-bca8-25afe43cce00</dc:identifier>
+    <meta property="identifier-type" refines="#pubID" scheme="xsd:string">uuid</meta>
+    <dc:identifier id="pubID2">urn:isbn:9786050345650</dc:identifier>
+    <meta property="identifier-type" refines="#pubID2" scheme="xsd:string">isbn</meta>
+    <dc:title id="title">The Adventures Of Sherlock Holmes - Adventure I - A Scandal In Bohemia</dc:title>
+    <dc:creator id="aut">Sir Arthur Conan Doyle</dc:creator>
+    <meta property="role" refines="#aut" scheme="marc:relators">aut</meta>
+    <dc:contributor id="nrt">Mark F. Smith</dc:contributor>
+    <meta property="role" refines="#nrt" scheme="marc:relators">nrt</meta>
+    <dc:contributor id="bkp">ReadBeyond</dc:contributor>
+    <meta property="role" refines="#bkp" scheme="marc:relators">bkp</meta>
+    <dc:language>en</dc:language>
+    <dc:date>2015-12-05</dc:date>
+    <dc:publisher>ReadBeyond</dc:publisher>
+    <dc:rights>CC BY-NC-SA 4.0</dc:rights>
+    <dc:subject>The Adventures Of Sherlock Holmes - Adventure I - A Scandal In Bohemia</dc:subject>
+    <dc:subject>Sir Arthur Conan Doyle</dc:subject>
+    <dc:subject>Mark F. Smith</dc:subject>
+    <dc:description>This Audio-eBook was crafted by ReadBeyond to celebrate the release of Menestrello, a free app for reading+listening Audio-eBooks in EPUB 3 reflowable format. For more information, please visit http://www.readbeyond.it/menestrello/</dc:description>
+    <dc:type>Book</dc:type>
+    <meta property="dcterms:modified">2016-08-05T00:34:37Z</meta>
+    <meta property="rendition:layout">reflowable</meta>
+    <meta name="cover" content="cover.png" />
+    <meta property="media:duration" refines="#s001">00:57:35.610</meta>
+    <meta property="media:duration">00:57:35.610</meta>
+    <meta property="media:narrator">Mark F. Smith</meta>
+    <meta property="media:active-class">-epub-media-overlay-active</meta>
+    <meta name="Sigil version" content="0.9.6" />
+  </metadata>
+  <manifest>
+    <item id="toc.ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="toc" href="Text/toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colophon" href="Text/colophon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="foreword" href="Text/foreword.xhtml" media-type="application/xhtml+xml"/>
+    <item id="begin" href="Text/begin.xhtml" media-type="application/xhtml+xml"/>
+    <item id="end" href="Text/end.xhtml" media-type="application/xhtml+xml"/>
+    <item id="playlist" href="Text/playlist.xhtml" media-type="application/xhtml+xml"/>
+    <item id="end2" href="Text/end2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="c001" href="Styles/style.css" media-type="text/css"/>
+    <item id="cover.png" href="Images/cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="logofb.png" href="Images/logofb.png" media-type="image/png"/>
+    <item id="logotw.png" href="Images/logotw.png" media-type="image/png"/>
+    <item id="logowww.png" href="Images/logowww.png" media-type="image/png"/>
+    <item id="reabeyond.png" href="Images/readbeyond.png" media-type="image/png"/>
+    <item id="l001" href="Misc/LibriVox.txt" media-type="text/plain"/>
+    <item id="l002" href="Misc/ProjectGutenberg.txt" media-type="text/plain"/>
+    <item id="p001" href="Text/p001.xhtml" media-type="application/xhtml+xml" media-overlay="s001"/>
+    <item id="s001" href="Misc/p001.xhtml.smil" media-type="application/smil+xml"/>
+    <item id="m001" href="Audio/01.mp3" media-type="audio/mpeg"/>
+  </manifest>
+  <spine page-progression-direction="ltr" toc="toc.ncx">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="colophon" linear="yes"/>
+    <itemref idref="toc" linear="yes"/>
+    <itemref idref="foreword" linear="yes"/>
+    <itemref idref="begin" linear="yes"/>
+    <itemref idref="p001" linear="yes"/>
+    <itemref idref="end" linear="yes"/>
+    <itemref idref="playlist" linear="yes"/>
+    <itemref idref="end2" linear="yes"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+    <reference type="toc" title="Contents" href="Text/toc.xhtml"/>
+    <reference type="text" title="The Adventures Of Sherlock Holmes Adventure I A Scandal In Bohemia" href="Text/begin.xhtml"/>
+  </guide>
+</package>

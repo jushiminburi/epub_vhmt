@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="488e41dd-11d3-45e4-b776-173d26db6306" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (3.21.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>The Geography of Bliss: One Grump's Search for the Happiest Places in the World</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="fmh" id="contents_1" playOrder="0">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="OEBPS/GeographyofBli_body_split_000.html#contents_1"/>
+    </navPoint>
+    <navPoint class="fmh" id="introduction_1" playOrder="1">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="OEBPS/GeographyofBli_body_split_002.html"/>
+    </navPoint>
+    <navPoint class="ct" id="chapter_1" playOrder="2">
+      <navLabel>
+        <text>Chapter 1: THE NETHERLANDS: Happiness Is a Number</text>
+      </navLabel>
+      <content src="OEBPS/GeographyofBli_body_split_003.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="urn:uuid:a3e2f6b1-c988-439a-bca8-25afe43cce00" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>The Adventures Of Sherlock Holmes - Adventure I - A Scandal In Bohemia</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-000001" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-000002" playOrder="2">
+      <navLabel>
+        <text>Colophon</text>
+      </navLabel>
+      <content src="Text/colophon.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-000003" playOrder="3">
+      <navLabel>
+        <text>Table Of Contents</text>
+      </navLabel>
+      <content src="Text/toc.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-000004" playOrder="4">
+      <navLabel>
+        <text>Audio-eBooks: A Quick Introduction</text>
+      </navLabel>
+      <content src="Text/foreword.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-000005" playOrder="5">
+      <navLabel>
+        <text>The Adventures Of Sherlock Holmes — Adventure I — A Scandal In Bohemia</text>
+      </navLabel>
+      <content src="Text/p001.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-000006" playOrder="6">
+      <navLabel>
+        <text>Playlist</text>
+      </navLabel>
+      <content src="Text/playlist.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

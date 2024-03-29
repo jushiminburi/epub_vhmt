@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:publisher>Twelve</dc:publisher>
+    <dc:rights>WORLD ALL LANGUAGES</dc:rights>
+    <dc:description>Part foreign affairs discourse, part humor, and part twisted self-help guide, The Geography of Bliss takes the reader from America to Iceland to India in search of happiness, or, in the crabby author's case, moments of 'un-unhappiness.' The book uses a beguiling mixture of travel, psychology, science and humor to investigate not what happiness is, but where it is. Are people in Switzerland happier because it is the most democratic country in the world? Do citizens of Singapore benefit psychologically by having their options limited by the government? Is the King of Bhutan a visionary for his initiative to calculate Gross National Happiness? Why is Asheville, North Carolina so damn happy? With engaging wit and surprising insights, Eric Weiner answers those questions and many others, offering travelers of all moods some interesting new ideas for sunnier destinations and dispositions.</dc:description>
+    <dc:language>en</dc:language>
+    <dc:creator opf:file-as="WEINER, ERIC" opf:role="aut">Eric Weiner</dc:creator>
+    <meta name="calibre:timestamp" content="2019-12-07T02:16:30.946242+00:00"/>
+    <dc:title>The Geography of Bliss: One Grump's Search for the Happiest Places in the World</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2008-01-03T00:00:00+00:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (3.21.0) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier opf:scheme="ISBN">9780446511070</dc:identifier>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">488e41dd-11d3-45e4-b776-173d26db6306</dc:identifier>
+    <dc:subject>TRV000000</dc:subject>
+  </metadata>
+  <manifest>
+    <item href="OEBPS/images/GeographyofBli-cover.jpg" id="cover" media-type="image/jpeg"/>
+    <item href="OEBPS/GeographyofBli_body_split_000.html" id="book4" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/GeographyofBli_body_split_001.html" id="book3" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/GeographyofBli_body_split_002.html" id="book2" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/GeographyofBli_body_split_003.html" id="book1" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/GeographyofBli_copyright.html" id="copyright" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/GeographyofBli_toc.html" id="toc" media-type="application/xhtml+xml"/>
+    <item href="OEBPS/cover.xml" id="uoqPyJdKsq5wvst4kVmgnj8" media-type="application/xhtml+xml"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="uoqPyJdKsq5wvst4kVmgnj8"/>
+    <itemref idref="copyright"/>
+    <itemref idref="toc"/>
+    <itemref idref="book4"/>
+    <itemref idref="book3"/>
+    <itemref idref="book2"/>
+    <itemref idref="book1"/>
+  </spine>
+  <guide>
+    <reference href="OEBPS/GeographyofBli_toc.html" title="Table of Contents" type="toc"/>
+    <reference href="OEBPS/cover.xml" title="Cover Image" type="cover"/>
+    <reference href="OEBPS/cover.xml" title="Title Page" type="other.titlepage"/>
+  </guide>
+</package>
